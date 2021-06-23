@@ -1,13 +1,125 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    margin: 0%;
-    padding: 0%;
+:root {
+  font-size: 17px;
 }
 
-.window1{
-    width: 100%;
-    height: 100vh;
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+#window1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/beach.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.head {
+  padding-top: 41vh;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.text {
+  margin: 0%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #926239;
+}
+
+.main {
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.but {
+  display: inline-block;
+  margin: 2.5vh 0px 0px 45.5vw;
+  padding: 12px 20px;
+  border: 1px solid #926239;
+  border-radius: 10px;
+  color: #926239;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.but {
+  text-decoration: none;
+  color: #926239;
+}
+
+.but:hover {
+  background-color: #926239;
+  color: #f4f4f4;
+}
+
+#window2 {
+  height: 48vh;
+  width: 100%;
+  display: inline-block;
+}
+
+.section {
+  display: inherit;
+  width: inherit;
+}
+
+.section1 {
+  height: 16.75vh;
+  background-color: #926239;
+  padding: 20px;
+}
+
+.p {
+  display: inherit;
+  margin: 0;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.6;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.p_sec_1 {
+  color: #f4f4f4;
+}
+
+.section2 {
+  height: 16.75vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.p_sec_2 {
+  color: #926239;
+}
+
+.section3 {
+  height: 14.5vh;
+  font-size: 0;
+}
+
+.div {
+  display: inherit;
+  height: inherit;
+  width: 33.3%;
+  margin: 0;
+  padding: 20px;
+  font-size: 1rem;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.div1_3 {
+  background-color: #926239;
+  color: #f4f4f4;
+}
+
+.div2 {
+  background-color: #f4f4f4;
+  color: #926239;
 }
